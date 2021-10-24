@@ -4,6 +4,10 @@ from pyppeteer import launch
 #           pip install pyppeteer
 #Windows:   cd c:\\python39\\Scripts
 
+#function: find jobs
+
+#function: apply for jobs
+
 #function: check for autofill
 
 #function: upload resume/coverletter
