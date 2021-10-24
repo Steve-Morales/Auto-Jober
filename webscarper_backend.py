@@ -1,5 +1,4 @@
-import asyncio
-from pyppeteer import launch
+from selenium import webdriver
 #to install pyppeteer run:
 #           pip install pyppeteer
 #Windows:   cd c:\\python39\\Scripts
@@ -16,3 +15,4 @@ from pyppeteer import launch
 #function: find [submit button] and submit
 
 #function: check/determine if submition was successful
+
