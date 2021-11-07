@@ -1,7 +1,6 @@
 from selenium import webdriver
-#to install pyppeteer run:
-#           pip install pyppeteer
-#Windows:   cd c:\\python39\\Scripts
+
+
 
 #function: find jobs
 
