@@ -5,8 +5,8 @@ window = tk.Tk()
 window.title("Auto Jober")
 window.geometry("500x500")
 
+# function for when Start button is clicked
 def onclick():
-    # function for when Start button is clicked
     print(1) # placeholder
 
 """"
@@ -28,11 +28,9 @@ input.insert(0, "Email Address")
 
 input = tk.Entry(window, width=30)
 input.pack()
-input.insert(0, "")
-
-input = tk.Entry(window, width=30)
-input.pack()
 input.insert(0, "Phone Number")
+
+
 
 button = tk.Button(text="Start", command=onclick)
 button.pack()
