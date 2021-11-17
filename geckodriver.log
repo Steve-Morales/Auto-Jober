@@ -797,3 +797,1213 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/egvcrhotxz7gzqfo5fqk8srbe
 1636335969554	Marionette	INFO	Stopped listening on port 56812
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1636835263401	geckodriver	INFO	Listening on 127.0.0.1:56843
+1636835266481	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56844" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilePYcGUw"
+1636835267501	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilePYcGUw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56844/devtools/browser/0ba989e3-5d3f-4aa9-883e-ad198367f674
+1636835271008	Marionette	INFO	Listening on port 56850
+1636835271332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.linkedin.com"
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is null", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is null", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1636836523828	geckodriver	INFO	Listening on 127.0.0.1:49510
+1636836526906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49511" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileGxMS1O"
+1636836527456	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileGxMS1O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49511/devtools/browser/c58ebb65-6dc8-4c7a-a5f6-8292c5a4c58d
+1636836530646	Marionette	INFO	Listening on port 49517
+1636836531145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636836800195	geckodriver	INFO	Listening on 127.0.0.1:49871
+1636836803271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49872" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilej9UpCo"
+1636836803785	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilej9UpCo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49872/devtools/browser/74704c8b-eb02-4909-9f3a-203e091bdf54
+1636836806796	Marionette	INFO	Listening on port 49878
+1636836806970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636837148484	geckodriver	INFO	Listening on 127.0.0.1:50199
+1636837151582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50200" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilexP406b"
+1636837152109	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilexP406b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50200/devtools/browser/b3dd0008-1eeb-49ee-9220-6a83c6dc4989
+1636837155427	Marionette	INFO	Listening on port 50208
+1636837155790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636837211954	geckodriver	INFO	Listening on 127.0.0.1:50375
+1636837215041	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50376" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileSz0tCw"
+1636837215572	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileSz0tCw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50376/devtools/browser/24e2dbc4-deb2-4624-9726-e28aa2ee5918
+1636837218701	Marionette	INFO	Listening on port 50383
+1636837218742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636837307891	geckodriver	INFO	Listening on 127.0.0.1:50567
+1636837310980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50568" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilePqJ594"
+1636837311492	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilePqJ594\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50568/devtools/browser/644205b4-40ab-4975-bcc9-55c1bcdd3b15
+1636837314623	Marionette	INFO	Listening on port 50581
+1636837314672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1636838025422	geckodriver	INFO	Listening on 127.0.0.1:51103
+1636838028494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51104" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileRcYA5I"
+1636838029010	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileRcYA5I\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51104/devtools/browser/dc73d34c-29bf-4573-ac4e-010126c944ba
+1636838032327	Marionette	INFO	Listening on port 51110
+1636838032729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636838114223	geckodriver	INFO	Listening on 127.0.0.1:51290
+1636838117320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51291" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileL9xCCf"
+1636838117847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileL9xCCf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51291/devtools/browser/e38942d3-33b3-4a04-9fd7-bffebe8c35f5
+1636838120944	Marionette	INFO	Listening on port 51297
+1636838121024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636838422229	geckodriver	INFO	Listening on 127.0.0.1:61421
+1636838425328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61422" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileY2KIhR"
+1636838425832	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileY2KIhR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61422/devtools/browser/f17ec258-b964-485c-a628-6e151e37c374
+1636838428912	Marionette	INFO	Listening on port 61428
+1636838429054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636838641155	geckodriver	INFO	Listening on 127.0.0.1:61677
+1636838644242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61678" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileot5JuZ"
+1636838644754	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileot5JuZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61678/devtools/browser/b756d9a8-51d1-4574-ba46-5a82022aaf4d
+1636838647861	Marionette	INFO	Listening on port 61685
+1636838647953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636838865320	geckodriver	INFO	Listening on 127.0.0.1:61949
+1636838868404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61950" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilenso0zu"
+1636838868916	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilenso0zu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61950/devtools/browser/2e8376ec-4b02-4123-8349-747652f02dfc
+1636838872025	Marionette	INFO	Listening on port 61956
+1636838872111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636839315284	geckodriver	INFO	Listening on 127.0.0.1:62380
+1636839318374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62381" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilee9DpvL"
+1636839318892	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilee9DpvL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62381/devtools/browser/e9966e43-a503-4d14-9bce-c30021cd5683
+1636839322075	Marionette	INFO	Listening on port 62387
+1636839322110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636839451878	geckodriver	INFO	Listening on 127.0.0.1:62571
+1636839454972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62572" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilezrulpA"
+1636839455474	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilezrulpA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62572/devtools/browser/d235caa1-6a2e-44f3-b40c-3e158f1a3aea
+1636839458572	Marionette	INFO	Listening on port 62578
+1636839458689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636839514087	geckodriver	INFO	Listening on 127.0.0.1:62737
+1636839517155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62738" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileKYBUCH"
+1636839517673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileKYBUCH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62738/devtools/browser/bb4f0094-6c50-4b86-894d-8a645af1bd19
+1636839520794	Marionette	INFO	Listening on port 62746
+1636839520869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636839604473	geckodriver	INFO	Listening on 127.0.0.1:62915
+1636839607572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62916" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileWNo9fO"
+1636839608083	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileWNo9fO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62916/devtools/browser/733f1446-9702-4af1-b3b0-d141f4cc3de9
+1636839611204	Marionette	INFO	Listening on port 62923
+1636839611284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636839654977	geckodriver	INFO	Listening on 127.0.0.1:63067
+1636839658046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63068" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileMrTBPI"
+1636839658549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileMrTBPI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63068/devtools/browser/59ec688f-a57d-42df-bea2-5af8602e7b8a
+1636839661665	Marionette	INFO	Listening on port 63074
+1636839661762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636839699412	geckodriver	INFO	Listening on 127.0.0.1:63215
+1636839702489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63216" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileu4gj42"
+1636839702991	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileu4gj42\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63216/devtools/browser/00000c09-2dfa-4f62-8e9c-7e0fede770f9
+1636839706250	Marionette	INFO	Listening on port 63222
+1636839706701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript error: resource://devtools/client/fronts/node.js, line 420: TypeError: this.parentFront is null
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1636840432429	geckodriver	INFO	Listening on 127.0.0.1:55540
+1636840435511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55541" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyjMkCJ"
+1636840436052	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyjMkCJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55541/devtools/browser/31583f59-18a3-4b03-ab75-3a7381d94798
+1636840439469	Marionette	INFO	Listening on port 55547
+1636840439749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636840495186	geckodriver	INFO	Listening on 127.0.0.1:55707
+1636840498259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55708" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile9Hj2Sq"
+1636840498810	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile9Hj2Sq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55708/devtools/browser/47c0487a-a5eb-4ee5-b773-47cdc14cf9dc
+1636840502352	Marionette	INFO	Listening on port 55720
+1636840502483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636840641010	geckodriver	INFO	Listening on 127.0.0.1:55924
+1636840644099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55925" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile6fQUzJ"
+1636840644659	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile6fQUzJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55925/devtools/browser/81dfb0c8-323a-4405-bc77-3b99dfe72dc2
+1636840648278	Marionette	INFO	Listening on port 55931
+1636840648334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636840903228	geckodriver	INFO	Listening on 127.0.0.1:56187
+1636840906302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56188" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileF1lmXV"
+1636840906854	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileF1lmXV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56188/devtools/browser/26fc1356-9259-4601-aefa-ab873762b988
+1636840910364	Marionette	INFO	Listening on port 56194
+1636840910508	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636841138777	geckodriver	INFO	Listening on 127.0.0.1:56448
+1636841141856	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56449" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile4Tno1H"
+1636841142424	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile4Tno1H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56449/devtools/browser/dbde5d5b-e677-4b45-8054-8b964a00de18
+1636841145950	Marionette	INFO	Listening on port 56455
+1636841146094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+1636841338766	geckodriver	INFO	Listening on 127.0.0.1:56681
+1636841341841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56682" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileeLli7N"
+1636841342153	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileeLli7N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56682/devtools/browser/7d479ef8-441c-4159-ae3a-8eb2f8ab284a
+1636841344249	Marionette	INFO	Listening on port 56688
+1636841344527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1636841914109	geckodriver	INFO	Listening on 127.0.0.1:57188
+1636841917182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57189" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileanlNuX"
+1636841917505	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileanlNuX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57189/devtools/browser/1aa0177e-1f82-4699-ad99-842724d16798
+1636841919568	Marionette	INFO	Listening on port 57195
+1636841919885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1636842175142	geckodriver	INFO	Listening on 127.0.0.1:61013
+1636842178225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61014" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileHjnZmO"
+1636842178537	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileHjnZmO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61014/devtools/browser/7548743d-536f-49d2-842d-8d8e07033923
+1636842180565	Marionette	INFO	Listening on port 61020
+1636842180898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6zty0q7fkrt6l9k6ie7um2f6z, line 89: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://linkedin-api.arkoselabs.com/cdn/fc/js/8b9301d4135cb099de2f9d2ad7e29fa40f99d329/standard/funcaptcha_api.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636842195636	geckodriver	INFO	Listening on 127.0.0.1:61100
+1636842198727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61101" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile19EFPz"
+1636842199024	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile19EFPz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61101/devtools/browser/0d4d5883-750b-4303-b47b-74ef2926b7e2
+1636842201094	Marionette	INFO	Listening on port 61107
+1636842201416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://static-exp1.licdn.com/sc/h/curbm65gufrb3lr4lgf42tdal, line 6350: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1oddoii6o95wfqpauyieoi2ro, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aa7h131vb6wyr49qo2j9hp3uu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/494a4yt9n7pk9pqdlo4yf2155, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d2z1xqfwa1gxetb3cy5vsse16, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1637116803388	geckodriver	INFO	Listening on 127.0.0.1:61765
+1637116806482	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61766" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile3BCITb"
+1637116807449	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile3BCITb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61766/devtools/browser/6cb03f84-66c3-4f43-a6b4-cc0a318d13ce
+1637116810830	Marionette	INFO	Listening on port 61773
+1637116811320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637116929884	geckodriver	INFO	Listening on 127.0.0.1:61996
+1637116932952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61997" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyNdKry"
+1637116933460	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyNdKry\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61997/devtools/browser/b11c2690-490a-46f3-9131-b3d6ca7ba72a
+1637116936237	Marionette	INFO	Listening on port 62003
+1637116936677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1637117189943	geckodriver	INFO	Listening on 127.0.0.1:62270
+1637117193021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62271" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilexawUXk"
+1637117193533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilexawUXk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62271/devtools/browser/d51f3978-1d9e-4b51-bc63-be17b8f132e5
+1637117196590	Marionette	INFO	Listening on port 62277
+1637117196754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637117244488	geckodriver	INFO	Listening on 127.0.0.1:62443
+1637117247561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62444" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileEcNM0x"
+1637117248049	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileEcNM0x\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62444/devtools/browser/70ee0fad-2422-4c0a-91c8-a48e28eb85ba
+1637117250991	Marionette	INFO	Listening on port 62450
+1637117251281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637117283819	geckodriver	INFO	Listening on 127.0.0.1:62611
+1637117286908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62612" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilefS1GIA"
+1637117287403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilefS1GIA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62612/devtools/browser/4a9ef99d-18af-4db6-9f52-2bb09c654ecf
+1637117290924	Marionette	INFO	Listening on port 62618
+1637117291134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637117330316	geckodriver	INFO	Listening on 127.0.0.1:62777
+1637117333396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62778" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileeqGldl"
+1637117333887	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileeqGldl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62778/devtools/browser/8e3d044a-35ec-4899-9e4a-a85fd07fe3b2
+1637117336938	Marionette	INFO	Listening on port 62784
+1637117337122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1637117526246	geckodriver	INFO	Listening on 127.0.0.1:62990
+1637117529320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62991" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile4esNoH"
+1637117529817	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile4esNoH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62991/devtools/browser/47aebb0f-1825-4fc3-8e55-291adb4bdd43
+1637117532846	Marionette	INFO	Listening on port 62998
+1637117533040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637117557556	geckodriver	INFO	Listening on 127.0.0.1:63136
+1637117560627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63137" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilekSrFLv"
+1637117561122	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilekSrFLv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63137/devtools/browser/25fccd29-c0d8-4813-a7d1-22ab9371f3e1
+1637117564233	Marionette	INFO	Listening on port 63143
+1637117564312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637117660705	geckodriver	INFO	Listening on 127.0.0.1:63347
+1637117663794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63348" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileAi8GPZ"
+1637117664292	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileAi8GPZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63348/devtools/browser/fc39f833-e196-4781-986e-441ffe384ac6
+1637117667198	Marionette	INFO	Listening on port 63354
+1637117667504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637117899885	geckodriver	INFO	Listening on 127.0.0.1:63600
+1637117902965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63601" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileR4sry8"
+1637117903465	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileR4sry8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63601/devtools/browser/3ebdf1ff-890f-4ca1-a807-614d1916acdf
+1637117906324	Marionette	INFO	Listening on port 63609
+1637117906679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1637118185725	geckodriver	INFO	Listening on 127.0.0.1:63886
+1637118188815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63887" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilekPhfkX"
+1637118189325	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilekPhfkX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63887/devtools/browser/37e86027-d910-449b-a40b-1468f45fad3d
+1637118192297	Marionette	INFO	Listening on port 63894
+1637118192532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637118266239	geckodriver	INFO	Listening on 127.0.0.1:64053
+1637118269305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64054" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileX1tuRm"
+1637118269798	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileX1tuRm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64054/devtools/browser/53b4681f-0cc8-4dbf-a151-947321f86e8f
+1637118272826	Marionette	INFO	Listening on port 64060
+1637118273013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1637118491790	geckodriver	INFO	Listening on 127.0.0.1:64286
+1637118494846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64287" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileY0FDza"
+1637118495345	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileY0FDza\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64287/devtools/browser/505f7a91-104d-46fa-9a4a-6414cedec15b
+1637118498379	Marionette	INFO	Listening on port 64295
+1637118498550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133055422	geckodriver	INFO	Listening on 127.0.0.1:61897
+1637133058492	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61898" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyVWvOW"
+1637133059237	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyVWvOW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61898/devtools/browser/61cc2e58-3f0d-435e-8fd2-188232e83948
+1637133061817	Marionette	INFO	Listening on port 61904
+1637133062190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133105960	geckodriver	INFO	Listening on 127.0.0.1:62048
+1637133109040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62049" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyCYT0u"
+1637133109536	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileyCYT0u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62049/devtools/browser/64b4e679-7f4c-4e56-95e2-b24a9e1280ff
+1637133112556	Marionette	INFO	Listening on port 62055
+1637133112751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133148816	geckodriver	INFO	Listening on 127.0.0.1:62227
+1637133151885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62228" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile6OSi4E"
+1637133152380	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile6OSi4E\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62228/devtools/browser/8c28f748-108b-43db-8ca9-c68731c59a46
+1637133155511	Marionette	INFO	Listening on port 62234
+1637133155591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133179157	geckodriver	INFO	Listening on 127.0.0.1:62367
+1637133182223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62368" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileexCAKY"
+1637133182720	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileexCAKY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62368/devtools/browser/a458c6a6-e031-45c4-89a7-3ebbb0a00c12
+1637133185611	Marionette	INFO	Listening on port 62375
+1637133185925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133233104	geckodriver	INFO	Listening on 127.0.0.1:62528
+1637133236169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62529" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile3DMpkI"
+1637133236667	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile3DMpkI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62529/devtools/browser/79a7bac4-4c78-44c9-9050-4b220d72ae36
+1637133239777	Marionette	INFO	Listening on port 62535
+1637133239883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133432495	geckodriver	INFO	Listening on 127.0.0.1:62773
+1637133435581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62774" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileNJN32v"
+1637133436088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileNJN32v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62774/devtools/browser/e44b8ab9-5f45-440b-9033-4ae059646de2
+1637133439089	Marionette	INFO	Listening on port 62780
+1637133439292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133591595	geckodriver	INFO	Listening on 127.0.0.1:60806
+1637133594665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60807" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileRsIPog"
+1637133595164	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileRsIPog\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60807/devtools/browser/978be460-bdb0-41c0-8207-bd423ddb8324
+1637133598313	Marionette	INFO	Listening on port 60813
+1637133598373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637133782758	geckodriver	INFO	Listening on 127.0.0.1:61028
+1637133785834	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61029" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileQLXOmw"
+1637133786327	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileQLXOmw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61029/devtools/browser/4acea53a-f678-4575-aeb2-80a7b070f12a
+1637133789309	Marionette	INFO	Listening on port 61038
+1637133789551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+1637133991357	geckodriver	INFO	Listening on 127.0.0.1:61261
+1637133994439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61262" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile3Q6mI8"
+1637133994937	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile3Q6mI8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61262/devtools/browser/ee10b5ec-23a5-45b6-b0bc-601ad79cda86
+1637133998028	Marionette	INFO	Listening on port 61268
+1637133998158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637134055649	geckodriver	INFO	Listening on 127.0.0.1:61421
+1637134058732	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61422" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile5QgREx"
+1637134059228	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile5QgREx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61422/devtools/browser/08cb3e5c-9865-486d-ade8-aa058c56728f
+1637134062290	Marionette	INFO	Listening on port 61428
+1637134062435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637134211621	geckodriver	INFO	Listening on 127.0.0.1:61626
+1637134214685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61627" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile54y2ug"
+1637134215179	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofile54y2ug\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61627/devtools/browser/33118ead-6154-43eb-932f-0ddbac599549
+1637134218292	Marionette	INFO	Listening on port 61633
+1637134218397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637134437786	geckodriver	INFO	Listening on 127.0.0.1:61883
+1637134440848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61884" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileXPiCUL"
+1637134441363	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileXPiCUL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61884/devtools/browser/a2d8fa37-f9a8-459e-aabb-97c2084e1fe8
+1637134444303	Marionette	INFO	Listening on port 61894
+1637134444551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637134546628	geckodriver	INFO	Listening on 127.0.0.1:62096
+1637134549714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62097" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilebrnC7R"
+1637134550213	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilebrnC7R\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62097/devtools/browser/0cbc6888-9903-498b-9dc3-c93e73104378
+1637134553233	Marionette	INFO	Listening on port 62103
+1637134553412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637134828560	geckodriver	INFO	Listening on 127.0.0.1:62361
+1637134831635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62362" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileuXctN5"
+1637134832156	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileuXctN5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62362/devtools/browser/04a18972-2d08-4055-8921-41cfe17f57ec
+1637134835211	Marionette	INFO	Listening on port 62368
+1637134835344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135020493	geckodriver	INFO	Listening on 127.0.0.1:62595
+1637135023541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62596" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileoO27zv"
+1637135024039	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileoO27zv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62596/devtools/browser/7782f196-dcd9-4466-b81a-82ef64326596
+1637135027041	Marionette	INFO	Listening on port 62603
+1637135027263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135121667	geckodriver	INFO	Listening on 127.0.0.1:62787
+1637135124739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62788" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilelLFfvH"
+1637135125242	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilelLFfvH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62788/devtools/browser/bbca463c-a167-4340-9c1c-7cd081434881
+1637135128506	Marionette	INFO	Listening on port 62795
+1637135128967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135186094	geckodriver	INFO	Listening on 127.0.0.1:62951
+1637135189171	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62952" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileIqJvBC"
+1637135189673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileIqJvBC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62952/devtools/browser/284fd4ff-2f2d-4efb-8b72-f4b108ee8778
+1637135192688	Marionette	INFO	Listening on port 62959
+1637135192891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135257989	geckodriver	INFO	Listening on 127.0.0.1:63110
+1637135261071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63111" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilerYDl7d"
+1637135261579	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilerYDl7d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63111/devtools/browser/b5926e60-7b82-44f1-9eb4-8da4948c0e77
+1637135264800	Marionette	INFO	Listening on port 63117
+1637135265289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135396688	geckodriver	INFO	Listening on 127.0.0.1:63302
+1637135399759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63303" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileXr9ccu"
+1637135400276	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileXr9ccu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63303/devtools/browser/3d2a1943-fc65-41ff-ac31-a093c60eb491
+1637135403591	Marionette	INFO	Listening on port 63309
+1637135403982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135516477	geckodriver	INFO	Listening on 127.0.0.1:63497
+1637135519552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63498" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileONZuvL"
+1637135520075	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileONZuvL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63498/devtools/browser/ff154259-0534-4a97-8eea-071240e46846
+1637135523785	Marionette	INFO	Listening on port 63504
+1637135523892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135640160	geckodriver	INFO	Listening on 127.0.0.1:63686
+1637135643237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63687" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileYNx5Gq"
+1637135643745	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileYNx5Gq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63687/devtools/browser/8415e6ee-4c70-46c8-b737-267fb590c683
+1637135646873	Marionette	INFO	Listening on port 63693
+1637135646955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637135899201	geckodriver	INFO	Listening on 127.0.0.1:63951
+1637135902276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63952" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilebgjERv"
+1637135902777	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilebgjERv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63952/devtools/browser/f0bc95fc-000d-43fe-96da-bda14549f292
+1637135905872	Marionette	INFO	Listening on port 63958
+1637135905991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637136231381	geckodriver	INFO	Listening on 127.0.0.1:64260
+1637136234462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64261" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileuKsueG"
+1637136234975	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileuKsueG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64261/devtools/browser/cdcb1273-2395-431e-a9f0-059f29413cf9
+1637136237979	Marionette	INFO	Listening on port 64267
+1637136238169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1637138127980	geckodriver	INFO	Listening on 127.0.0.1:55638
+1637138131067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55639" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilemw9gQO"
+1637138131568	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilemw9gQO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55639/devtools/browser/1fa466e6-714d-47a1-8229-c1dce3593c3e
+1637138134682	Marionette	INFO	Listening on port 55646
+1637138134776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1637138713574	geckodriver	INFO	Listening on 127.0.0.1:56315
+1637138716653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56316" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilemZ9T5v"
+1637138717170	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofilemZ9T5v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56316/devtools/browser/fe9cb607-dae2-4b5e-ae35-8a06b11ddd63
+1637138720241	Marionette	INFO	Listening on port 56323
+1637138720350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637139037488	geckodriver	INFO	Listening on 127.0.0.1:56752
+1637139040547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56753" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileG7GhRG"
+1637139041098	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileG7GhRG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56753/devtools/browser/4e042014-32ce-4d9f-a216-14f5d35a3c2d
+1637139044681	Marionette	INFO	Listening on port 56760
+1637139044787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637139140202	geckodriver	INFO	Listening on 127.0.0.1:56990
+1637139143277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56991" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileITCe3x"
+1637139143773	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofileITCe3x\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56991/devtools/browser/b925a546-210a-454f-8f40-8dbf63896593
+1637139146853	Marionette	INFO	Listening on port 56998
+1637139146990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/1do6zzumecnl1wz319skt1m9k, line 1: Error: Could not lazy load JS with src https://static-exp1.licdn.com/sc/h/98lptr8kagfxge22q7k1fps8
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
+1637139270392	geckodriver	INFO	Listening on 127.0.0.1:57248
+1637139273467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57249" "-no-remote" "-profile" "C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofiletirTBM"
+1637139273968	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\stove\\AppData\\Local\\Temp\\rust_mozprofiletirTBM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57249/devtools/browser/eaaf6d5e-d61c-48f8-99b2-bbbfa622c1c8
+1637139277202	Marionette	INFO	Listening on port 57256
+1637139277694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bg4razvv6kxjmaae1unk25c27, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/bydjex301jynv4nnmljfwkxq7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/wtbuqyetuevfcqap5pt4vadg, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/226f9t0lff5p8vysjmk53i15w, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a5zecjc996q1l7b52kgb3bxbu, line 39: unreachable code after return statement
