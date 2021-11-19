@@ -1,6 +1,13 @@
 import tkinter as tk
 from tkinter import filedialog
 
+#link backend
+#import sys
+#sys.path.append('/Auto-Jober/webscraper_backend.py')
+#from webscraper_backend import IsBackendLinked
+#import webscraper_backend as backend
+#from mediator import *
+import webscraper_backend
 # window dimensions and title
 window = tk.Tk()
 window.title("Auto Jober")
@@ -10,7 +17,13 @@ window.configure(bg="#0072b1")
 # function for when Start button is clicked (backend starts running)
 def onclick():
     # available variables: firstName, lastName, email, phoneNum, jobTitle, resume
-    print(1) #placeholder
+    #print("Loging In") #placeholder
+    #SiteLogIn()
+    webscraper_backend.DoSomethingToRequest()
+
+def EvaluateRequest():
+    webscraper_backend.UpdateRequestVariables(False, "Null", "Request Completed")
+    webscraper_backend.PrintRequestVariables()
 
 # function for asking user to upload resume/file
 # output: resume file
@@ -53,3 +66,4 @@ startButton = tk.Button(text="Start", command=onclick)
 startButton.pack()
 
 tk.mainloop()
+
