@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support import select
 from selenium.webdriver.support.select import Select
 import time
 import auto_jober_gui
 
-# Application Global Variables (used by the mediator)
+# Application Global Variables
 request_flag = False #determines if we need to request information from user
 request_send = "Null" #type of information we need from user
 request_recieve = "Null" #recieved from request
@@ -36,13 +37,12 @@ def PrintRequestVariables():
 
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task
-username = ""        # user's username/email to login into website
-password = ""         # user's password to login into website 
+username = "sam008@ucsd.edu"        # user's username/email to login into website
+password = "Stovecraft123@"         # user's password to login into website 
 jobKeyword = "Software Engineer"    # keyword for related jobs
 
 # Driver -- Global Variable -- NOT TO BE REASSIGNED
-start = False
-if start == True: driver = webdriver.Firefox()
+driver = webdriver.Firefox()
 
 # Determines if the current 'form' being looked at has a 'Next' button 
 # @return True (exists) or False (does not exist)
@@ -136,9 +136,33 @@ def PrintAnswers(answers):
 question_dictionary = []
 answer_dictionary = []
 
+def InputGetAnswer(question):
+    return auto_jober_gui.GetUserInput(question)
+
+# web_element is the selected element that is the input box
+def InputSetAnswer(answer, web_element):
+    web_element.send_keys(answer)
+
+def DropdownGetAnswer(question, options):
+    choices = []
+    for option in options:
+        choices.append(option.text)
+    return auto_jober_gui.GetUserChoice(question, choices)
+
+# select_web_element is the element that has selectable input(s) (dropdown)
+def DropdownSetAnswer(answer, select_web_element):
+    Select(select_web_element).select_by_visible_text(answer)
+    #Select(select_web_element).select_by_index(1)
+
+def GetQuestion(form_item, sub_item_index=0):
+    q = form_item.find_elements_by_tag_name("span")
+    return q[sub_item_index].text
+
 #APPLY THROUGH EACH JOB
-i = 1
-if start == True: #for the moment we don't want this to run -- eventually we turn this into a function
+def ApplyToJobs(): #for the moment we don't want this to run -- eventually we turn this into a function
+    i=1
+    GoToWebsite()
+    LogIn()
     jobList = GetJobList()
     for job in jobList:
         print(i)
@@ -149,35 +173,41 @@ if start == True: #for the moment we don't want this to run -- eventually we tur
         questions = GetQuestions(form_items)
         answers = GetAnswers(form_items)
         
-        
-        temp = Select(form_items[0].find_element_by_class_name("fb-dropdown").find_element_by_tag_name("select"))
-        val = temp.first_selected_option.get_attribute('value')
-        print(val)
+        #can delete this
+        #temp = Select(form_items[0].find_element_by_class_name("fb-dropdown").find_element_by_tag_name("select"))
+        #val = temp.first_selected_option.get_attribute('value')
+        #print(val)
 
         # checks if answers are empty for any question and then fills in the answer from either database/dictionary
         # or asks user for an answer and will remember it. 
         # Caveat: if there are muliple questions in a particular 'form_item' you can't guarentee you will get all answers 
         for item in form_items:
             try:
+                pass
                 temp = item.find_element_by_tag_name("input")
-                if temp == "":
-                    TypeAnswer(GetAnswer());#get answer from user, then type answer
+                if temp.text == "":
+                    answer = InputGetAnswer(GetQuestion(item))
+                    InputSetAnswer(answer, temp)#get answer from user, then type answer
             except NoSuchElementException:
-                print("There is no 'input' tag")
+                pass
+                #print("There is no 'input' tag")#for debugging
             
-            try:
+            try:#remember to remove the "Select an option" option for parameter
                 temp = item.find_element_by_class_name("fb-dropdown").find_element_by_tag_name("select")
                 val = Select(temp).first_selected_option.get_attribute('value')
-                if val == "Select an option":
-                    SelectAnswer(GetAnswer())#get answer from user, then select answer
+                #if val == "Select an option":
+                answer = DropdownGetAnswer(GetQuestion(item), Select(temp).options)#get answer from user, then select answer
+                DropdownSetAnswer(answer, temp)
             except NoSuchElementException:
-                print("There is no dropdown")
+                pass
+                #print("There is no dropdown")#for debugging
             
             try:#assume that no ansawer is choosen
                 temp = item.find_element_by_class_name("fb-radio-buttons")
                 ClickAnswer(GetAnswer())#get answer from user, then click answer/radio button
             except NoSuchElementException:
-                print("There is no radio buttons")
+                pass
+                #print("There is no radio buttons")#for debugging
         
         time.sleep(1000)
         
