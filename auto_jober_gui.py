@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
+from tkinter import simpledialog
 
 import webscraper_backend
 
@@ -45,7 +46,7 @@ def onclick():
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
-    answer = "Place Holder Answer"
+    answer = simpledialog.askstring("Input", question)
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
