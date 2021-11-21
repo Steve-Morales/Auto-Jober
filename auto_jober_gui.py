@@ -104,6 +104,15 @@ jobTitle = tk.Entry(window, width=30)
 jobTitle.pack()
 jobTitle.insert(0, "Desired Job Title")
 
+# ask for username and password
+userName = tk.Entry(window, width=30)
+userName.pack()
+userName.insert(0, "Linkedin Username")
+
+passWord = tk.Entry(window, width=30)
+passWord.pack()
+passWord.insert(0, "Linkedin Password")
+
 # create resume variable to allow for access outside of uploadResume function
 resume = 0
 resumeButton = tk.Button(text="Upload Resume", command=uploadResume)
