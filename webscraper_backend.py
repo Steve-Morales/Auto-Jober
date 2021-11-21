@@ -6,35 +6,6 @@ from selenium.webdriver.common.keys import Keys
 import time
 import auto_jober_gui
 
-# Application Global Variables
-request_flag = False #determines if we need to request information from user
-request_send = "Null" #type of information we need from user
-request_recieve = "Null" #recieved from request
-def hasRequest():
-    return request_flag
-
-def UpdateRequestVariables(false_flag, null_value, gift):
-    global request_flag, request_send, request_recieve
-    request_flag = false_flag
-    request_send = null_value
-    request_recieve = gift
-
-def Request():
-    global request_flag, request_send, request_recieve
-    request_send = "Need User to Type" #type of information we need from user
-    request_recieve = "Null" #recieved from request
-    request_flag = True #determines if we need to request information from user
-    auto_jober_gui.EvaluateRequest()
-
-def DoSomethingToRequest():
-    print("Going to Request Something")
-    Request()
-    print("Have requested, did it communicate first?")
-    
-#this is used for debugging purposes
-def PrintRequestVariables():
-    print("Flag: ", request_flag, "\tValue: ", request_send, "\tReturned: ", request_recieve)
-
 
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task

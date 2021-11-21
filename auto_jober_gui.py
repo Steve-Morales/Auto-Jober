@@ -14,13 +14,7 @@ def onclick():
     # available variables: firstName, lastName, email, phoneNum, jobTitle, resume
     #
     #print("Loging In") #placeholder
-    #SiteLogIn()
-    #webscraper_backend.DoSomethingToRequest()
     webscraper_backend.ApplyToJobs()
-
-def EvaluateRequest():
-    webscraper_backend.UpdateRequestVariables(False, "Null", "Request Completed")
-    webscraper_backend.PrintRequestVariables()
 
 ########################## README ####################################
 # Now that GUI is linked with the backend, and due to the circular
