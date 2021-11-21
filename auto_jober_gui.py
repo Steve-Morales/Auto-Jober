@@ -1,8 +1,9 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import simpledialog
+from tkinter import IntVar
 
-import webscraper_backend
+# import webscraper_backend
 
 # window dimensions and title
 window = tk.Tk()
@@ -15,7 +16,8 @@ def onclick():
     # available variables: firstName, lastName, email, phoneNum, jobTitle, resume
     #
     #print("Loging In") #placeholder
-    webscraper_backend.ApplyToJobs()
+    # webscraper_backend.ApplyToJobs()
+    pass
 
 ########################## README ####################################
 # Now that GUI is linked with the backend, and due to the circular
@@ -65,6 +67,15 @@ def GetUserInput(question):
 #
 #        once you've tested and confirmed it works, let me know which route you've taken
 def GetUserChoice(question, choices):
+    if question:
+        tk.Label(window, text=question).pack()
+    v = IntVar()
+    for i, choice in enumerate(choices):
+        tk.Radiobutton(window, text=choice, variable=v, value=i).pack(anchor="w")
+    tk.Button(text="Sumbit", command=window.destroy).pack()
+    window.mainloop()
+    if v.get() == 0: return None
+    answer = choices[i]
     print("Question: ", question)#for debugging, can be deleted
     print("##Start of Choices##")#for debugging, can be deleted
     for choice in choices:#for debugging, can be deleted
