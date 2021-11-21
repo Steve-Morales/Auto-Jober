@@ -75,21 +75,27 @@ def GetFormItems():
     #Get Form
     form_div = driver.find_element_by_xpath('//*[@id="artdeco-modal-outlet"]')#divider containing form
     apply_form = form_div.find_element_by_tag_name("form")#the form itself
-    return apply_form.find_elements_by_class_name("jobs-easy-apply-form-section__grouping")#items/divders in form 
+    form_groups = apply_form.find_elements_by_class_name("jobs-easy-apply-form-section__grouping")#items/divders in form 
+    items = []
+    for group in form_groups:
+        main_items = group.find_elements_by_class_name("fb-form-element.mt4.jobs-easy-apply-form-element")#multiple items
+        for item in main_items:
+            items.append(item)
+    return items
 
 # GET QUESTIONS FROM FORM
-def GetQuestions(form_items):
+def GetAllQuestions(form_items):
     questions = []
     for item in form_items:#Questions
         temp = item.find_elements_by_tag_name("span")#Note: use of 'elements' to get every 'span' tag object
         for q in temp:#since we searching for 1 or more 'span' tag object, this creates a list we need to unpack
             #print(q.text)
             if q.text != "Required":
-                questions.append(q)
+                questions.append(q.text)
     return questions
 
 # Caveat: if there are muliple questions in a particular 'form_item' you can't guarentee you will get all answers 
-def GetAnswers(form_items):
+def GetAllAnswers(form_items):
     answers = []
     for item in form_items:#question Answers
         try:
@@ -158,6 +164,36 @@ def GetQuestion(form_item, sub_item_index=0):
     q = form_item.find_elements_by_tag_name("span")
     return q[sub_item_index].text
 
+def UpdateInput(item):
+    try:
+        temp = item.find_element_by_tag_name("input")
+        if temp.text == "":
+            answer = InputGetAnswer(GetQuestion(item))
+            InputSetAnswer(answer, temp)#get answer from user, then type answer
+        return
+    except NoSuchElementException:
+        pass
+        #print("There is no 'input' tag")#for debugging
+
+    try:#remember to remove the "Select an option" option for parameter
+        temp = item.find_element_by_class_name("fb-dropdown").find_element_by_tag_name("select")
+        val = Select(temp).first_selected_option.get_attribute('value')
+        #if val == "Select an option":
+        answer = DropdownGetAnswer(GetQuestion(item), Select(temp).options)#get answer from user, then select answer
+        DropdownSetAnswer(answer, temp)
+        return
+    except NoSuchElementException:
+        pass
+        #print("There is no dropdown")#for debugging
+
+    try:#assume that no ansawer is choosen
+        temp = item.find_element_by_class_name("fb-radio-buttons")
+        ClickAnswer(GetAnswer())#get answer from user, then click answer/radio button
+        return
+    except NoSuchElementException:
+        pass
+        #print("There is no radio buttons")#for debugging
+
 #APPLY THROUGH EACH JOB
 def ApplyToJobs(): #for the moment we don't want this to run -- eventually we turn this into a function
     i=1
@@ -170,44 +206,17 @@ def ApplyToJobs(): #for the moment we don't want this to run -- eventually we tu
         driver.find_element_by_class_name("jobs-apply-button").click()
         
         form_items = GetFormItems()
-        questions = GetQuestions(form_items)
-        answers = GetAnswers(form_items)
-        
-        #can delete this
-        #temp = Select(form_items[0].find_element_by_class_name("fb-dropdown").find_element_by_tag_name("select"))
-        #val = temp.first_selected_option.get_attribute('value')
-        #print(val)
+        #questions = GetAllQuestions(form_items)
+        #answers = GetAllAnswers(form_items)
 
         # checks if answers are empty for any question and then fills in the answer from either database/dictionary
         # or asks user for an answer and will remember it. 
-        # Caveat: if there are muliple questions in a particular 'form_item' you can't guarentee you will get all answers 
         for item in form_items:
-            try:
-                pass
-                temp = item.find_element_by_tag_name("input")
-                if temp.text == "":
-                    answer = InputGetAnswer(GetQuestion(item))
-                    InputSetAnswer(answer, temp)#get answer from user, then type answer
-            except NoSuchElementException:
-                pass
-                #print("There is no 'input' tag")#for debugging
-            
-            try:#remember to remove the "Select an option" option for parameter
-                temp = item.find_element_by_class_name("fb-dropdown").find_element_by_tag_name("select")
-                val = Select(temp).first_selected_option.get_attribute('value')
-                #if val == "Select an option":
-                answer = DropdownGetAnswer(GetQuestion(item), Select(temp).options)#get answer from user, then select answer
-                DropdownSetAnswer(answer, temp)
-            except NoSuchElementException:
-                pass
-                #print("There is no dropdown")#for debugging
-            
-            try:#assume that no ansawer is choosen
-                temp = item.find_element_by_class_name("fb-radio-buttons")
-                ClickAnswer(GetAnswer())#get answer from user, then click answer/radio button
-            except NoSuchElementException:
-                pass
-                #print("There is no radio buttons")#for debugging
+            #main_item = item.find_element_by_class_name("fb-form-element.mt4.jobs-easy-apply-form-element")
+            qs = item.find_elements_by_tag_name('span')
+            for q in qs:
+                print(q.text)
+                
         
         time.sleep(1000)
         
