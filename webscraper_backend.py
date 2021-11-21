@@ -1,7 +1,8 @@
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.support import select
+#from selenium.webdriver.support import select
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.keys import Keys
 import time
 import auto_jober_gui
 
@@ -37,8 +38,8 @@ def PrintRequestVariables():
 
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task
-username = "sam008@ucsd.edu"        # user's username/email to login into website
-password = "Stovecraft123@"         # user's password to login into website 
+username = ""        # user's username/email to login into website
+password = ""         # user's password to login into website 
 jobKeyword = "Software Engineer"    # keyword for related jobs
 
 # Driver -- Global Variable -- NOT TO BE REASSIGNED
@@ -157,13 +158,19 @@ def DropdownGetAnswer(question, options):
 
 # select_web_element is the element that has selectable input(s) (dropdown)
 def DropdownSetAnswer(answer, select_web_element):
-    Select(select_web_element).select_by_visible_text(answer)
+    sel = Select(select_web_element)
+    sel.select_by_visible_text(answer)
+    select_web_element.send_keys(Keys.RETURN)
     #Select(select_web_element).select_by_index(1)
 
-def GetQuestion(form_item, sub_item_index=0):
-    q = form_item.find_elements_by_tag_name("span")
-    return q[sub_item_index].text
+def GetQuestion(form_item):
+    questions = form_item.find_elements_by_tag_name("span")
+    for q in questions:
+        if q.text != 'Required':
+            return q.text
+    return q.text
 
+# asks and inputs answer from user
 def UpdateInput(item):
     try:
         temp = item.find_element_by_tag_name("input")
@@ -178,8 +185,10 @@ def UpdateInput(item):
     try:#remember to remove the "Select an option" option for parameter
         temp = item.find_element_by_class_name("fb-dropdown").find_element_by_tag_name("select")
         val = Select(temp).first_selected_option.get_attribute('value')
+        choices = Select(temp).options
+        choices.pop(0)
         #if val == "Select an option":
-        answer = DropdownGetAnswer(GetQuestion(item), Select(temp).options)#get answer from user, then select answer
+        answer = DropdownGetAnswer(GetQuestion(item), choices)#get answer from user, then select answer
         DropdownSetAnswer(answer, temp)
         return
     except NoSuchElementException:
@@ -212,10 +221,7 @@ def ApplyToJobs(): #for the moment we don't want this to run -- eventually we tu
         # checks if answers are empty for any question and then fills in the answer from either database/dictionary
         # or asks user for an answer and will remember it. 
         for item in form_items:
-            #main_item = item.find_element_by_class_name("fb-form-element.mt4.jobs-easy-apply-form-element")
-            qs = item.find_elements_by_tag_name('span')
-            for q in qs:
-                print(q.text)
+            UpdateInput(item)
                 
         
         time.sleep(1000)

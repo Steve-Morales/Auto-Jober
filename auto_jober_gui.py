@@ -52,6 +52,7 @@ def EvaluateRequest():
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
     answer = "Place Holder Answer"
+    print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
 ########################## TODO ####################################
@@ -74,7 +75,7 @@ def GetUserChoice(question, choices):
     for choice in choices:#for debugging, can be deleted
         print(choice)#for debugging, can be deleted
     print("##End of Choices##")#for debugging, can be deleted
-    answer = choices[1]#place holder
+    answer = choices[0]#place holder
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
