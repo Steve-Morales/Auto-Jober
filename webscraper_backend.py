@@ -8,8 +8,8 @@ import auto_jober_gui
 
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task
-username = ""        # user's username/email to login into website
-password = ""         # user's password to login into website 
+username = "sam008@ucsd.edu"        # user's username/email to login into website
+password = "Stovecraft123@"         # user's password to login into website 
 jobKeyword = "Software Engineer"    # keyword for related jobs
 
 # Driver -- Global Variable -- NOT TO BE REASSIGNED
