@@ -47,8 +47,13 @@ def onclick():
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
+<<<<<<< HEAD
     #answer = simpledialog.askstring("Input", question)
     answer = "Placeholder Answer"
+=======
+
+    answer = simpledialog.askstring("Input", question, parent=window)
+>>>>>>> a97405e69f3ba7898d11cd9dd48a6749b58c6ba4
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
