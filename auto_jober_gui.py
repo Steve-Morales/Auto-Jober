@@ -48,7 +48,7 @@ def onclick():
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
-    answer = simpledialog.askstring("Input", question)
+    answer = simpledialog.askstring("Input", question, parent=window)
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
@@ -133,11 +133,5 @@ resumeButton.pack()
 # button to start back end code
 startButton = tk.Button(text="Start", command=onclick)
 startButton.pack()
-
-# This is where you will test your functions
-# Delete this once everything works
-#~~~~~~~~~~~~~~~~~~~~ Testing ~~~~~~~~~~~~~~~~~~~~#
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 tk.mainloop()

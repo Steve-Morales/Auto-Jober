@@ -8,24 +8,19 @@ import auto_jober_gui
 
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task
-username = ""        # user's username/email to login into website
-password = ""         # user's password to login into website 
+username = "sam008@ucsd.edu"        # user's username/email to login into website
+password = "Stovecraft123@"         # user's password to login into website 
 jobKeyword = "Software Engineer"    # keyword for related jobs
 
 # Driver -- Global Variable -- NOT TO BE REASSIGNED
 driver = webdriver.Firefox()
 
-########################## TODO ####################################
-# Make sure this works
-#
+
 # Determines if the current 'form' being looked at has a 'Next' button 
 # @return True (exists) or False (does not exist)
 def hasNext():
     return len(driver.find_elements_by_xpath('//button[normalize-space()="Next"]')) == 1
 
-########################## TODO ####################################
-# Make sure this works
-#
 # Clicks on a 'Next' button if one exists
 def clickNext():
     driver.find_element_by_xpath('//button[normalize-space()="Next"]').click()
@@ -158,10 +153,19 @@ def DropdownGetAnswer(question, options):
 #
 # select_web_element is the element that has selectable input(s) (dropdown)
 def DropdownSetAnswer(answer, select_web_element):
+    select_web_element.click()
     sel = Select(select_web_element)
     sel.select_by_visible_text(answer)
     #select_web_element.send_keys(Keys.RETURN)
-    #Select(select_web_element).select_by_index(1)
+    #sel.select_by_index(1)
+
+def GetRadioAnswer(question, choices):
+    return auto_jober_gui.GetUserChoice(question, choices)
+
+def SetRadioAnswer(answer, select_web_element):
+    sel = Select(select_web_element)
+    sel.select_by_visible_text(answer)
+
 
 # Get's questions from the current form item
 # Note: the parameter is not the list of form items,
@@ -206,7 +210,12 @@ def UpdateInput(item):
 
     try:#assume that no ansawer is choosen
         temp = item.find_element_by_class_name("fb-radio-buttons")
-        ClickAnswer(GetAnswer())#get answer from user, then click answer/radio button
+        temp2 = temp.find_elements_by_class_name("fb-radio display-flex")
+        choices = []
+        for t in temp2:
+            choices.append(t.find_element_by_tag_name('span').text)
+        answer = GetRadioAnswer(GetQuestion(item), choices)#get answer from user, then click answer/radio button
+        SetRadioAnswer(answer, temp)
         return
     except NoSuchElementException:
         pass
@@ -246,20 +255,17 @@ def ApplyToJobs():
         job.click()
         driver.find_element_by_class_name("jobs-apply-button").click()
         
-        form_items = GetFormItems()
-        #questions = GetAllQuestions(form_items)
-        #answers = GetAllAnswers(form_items)
-
-        # checks if answers are empty for any question and then fills in the answer from either database/dictionary
-        # or asks user for an answer and will remember it. 
-        for item in form_items:
-            UpdateInput(item)
-                
-        
-        time.sleep(1000)#remove this if nessesary, should be removed once everything works
-        
         while (hasNext()):
+            form_items = GetFormItems()
+            # checks if answers are empty for any question and then fills in the answer from either database/dictionary
+            # or asks user for an answer and will remember it. 
+            for item in form_items:
+                UpdateInput(item)
             clickNext()
+        
+        #submit
+        
+        
         time.sleep(waitTime)
         #driver.find_element_by_xpath("//div[@class='jobs-apply-button--top-card']/button[@class='jobs-apply-button artdeco-button']").click()
         print(job.text + "\n")
