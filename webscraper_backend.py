@@ -323,4 +323,8 @@ def ApplyToJobs():
 
 # Notes:
 #       *questions and answers are collected from top to bottom, left to right
+<<<<<<< HEAD
 #        lists that directly scrape answers or questions are in that order (i.e question[3] corresponds to answer[3])
+=======
+#        lists that directly scrape answers or questions are in that order (i.e question[3] corresponds to answer[3])
+>>>>>>> f6b9e62ecc86b2afec9901d2a2b639d9ef045d19

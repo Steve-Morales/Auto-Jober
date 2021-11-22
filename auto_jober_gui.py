@@ -24,9 +24,9 @@ def onclick():
 ########################## README ####################################
 # Now that GUI is linked with the backend, and due to the circular
 # dependency issue, you have to run 'webscraper_backend.py'
-# 
+#
 #                  __Debugging/Testing__
-# Comment out 'webscraper_backend.ApplyToJobs()' in 'def onclick()' 
+# Comment out 'webscraper_backend.ApplyToJobs()' in 'def onclick()'
 # from 'auto_jober_gui.py' (i.e this file).
 # Then add 'pass' right after the commented line.
 # Should look like this:
@@ -46,7 +46,7 @@ def onclick():
 ########################## TODO ####################################
 # will open up a dialog box prompting user to type an answer
 # the parameter 'question' is the question the dialog box needs to display
-# use tkinter.simpledialog.askstring(title, prompt, **kw) 
+# use tkinter.simpledialog.askstring(title, prompt, **kw)
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
@@ -58,7 +58,7 @@ def GetUserInput(question):
 # will open up a dialog box prompting user to select one of many choices
 # the parameter 'question' is the question the dialog box needs to display
 # the parameter 'choices' are the choices the user can pick from, but can only select 1
-# The following may be useful: 
+# The following may be useful:
 # https://stackoverflow.com/questions/42581016/how-do-i-display-a-dialog-that-asks-the-user-multi-choice-question-using-tkinter
 # https://docs.python.org/3/library/tkinter.messagebox.html
 #
