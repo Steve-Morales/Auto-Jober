@@ -4,8 +4,6 @@ from tkinter import simpledialog
 from tkinter import IntVar
 import webscraper_backend
 
-# import webscraper_backend
-
 # window dimensions and title
 window = tk.Tk()
 window.title("Auto Jober")
@@ -49,7 +47,6 @@ def onclick():
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
-
     answer = simpledialog.askstring("Input", question, parent=window)
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
