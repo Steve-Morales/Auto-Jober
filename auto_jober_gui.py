@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import filedialog
-import tkSimpleDialog as simpledialog
+from tkinter import simpledialog
 from tkinter import IntVar
+from tkinter import *
+from typing import AnyStr
 import webscraper_backend
 
 # window dimensions and title
@@ -17,13 +19,14 @@ def onclick():
     #print("Loging In") #placeholder
     webscraper_backend.ApplyToJobs()
     #pass
+    #GetUserChoice("Test Question", ["i0", "i1", "i2"])
 
 ########################## README ####################################
 # Now that GUI is linked with the backend, and due to the circular
 # dependency issue, you have to run 'webscraper_backend.py'
-# 
+#
 #                  __Debugging/Testing__
-# Comment out 'webscraper_backend.ApplyToJobs()' in 'def onclick()' 
+# Comment out 'webscraper_backend.ApplyToJobs()' in 'def onclick()'
 # from 'auto_jober_gui.py' (i.e this file).
 # Then add 'pass' right after the commented line.
 # Should look like this:
@@ -43,11 +46,11 @@ def onclick():
 ########################## TODO ####################################
 # will open up a dialog box prompting user to type an answer
 # the parameter 'question' is the question the dialog box needs to display
-# use tkinter.simpledialog.askstring(title, prompt, **kw) 
+# use tkinter.simpledialog.askstring(title, prompt, **kw)
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
-    answer = simpledialog.askstring("Input", question)
+    answer = simpledialog.askstring("Input", question, parent=window)
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
@@ -55,7 +58,7 @@ def GetUserInput(question):
 # will open up a dialog box prompting user to select one of many choices
 # the parameter 'question' is the question the dialog box needs to display
 # the parameter 'choices' are the choices the user can pick from, but can only select 1
-# The following may be useful: 
+# The following may be useful:
 # https://stackoverflow.com/questions/42581016/how-do-i-display-a-dialog-that-asks-the-user-multi-choice-question-using-tkinter
 # https://docs.python.org/3/library/tkinter.messagebox.html
 #
@@ -65,23 +68,29 @@ def GetUserInput(question):
 #        picks choice0, then return 0, where 0 is the index.
 #
 #        once you've tested and confirmed it works, let me know which route you've taken
+ans=0
+def selection(radio):
+    selected = "You selected the option " + str(radio.get())
+    print(selected)
+    global ans
+    ans = radio.get()
+
 def GetUserChoice(question, choices):
-    if question:
-        tk.Label(window, text=question).pack()
+    newWindow = Toplevel(window)
+    newWindow.title(question)
+    newWindow.geometry("200x200")
+    tk.Label(newWindow, text=question).pack()
     v = IntVar()
-    for i, choice in enumerate(choices):
-        tk.Radiobutton(window, text=choice, variable=v, value=i).pack(anchor="w")
-    tk.Button(text="Sumbit", command=window.destroy).pack()
-    window.mainloop()
-    if v.get() == 0: return None
-    answer = choices[i]
-    print("Question: ", question)#for debugging, can be deleted
-    print("##Start of Choices##")#for debugging, can be deleted
-    for choice in choices:#for debugging, can be deleted
-        print(choice)#for debugging, can be deleted
-    print("##End of Choices##")#for debugging, can be deleted
-    answer = choices[0]#place holder
-    print("Answer: ", answer)#for debugging, can be deleted
+    i = 0
+    for choice in choices:
+        tk.Radiobutton(newWindow, text=choice, variable=v, value=i, command=lambda: selection(v)).pack()
+        i = i + 1
+    tk.Button(newWindow, text="Submit", command=newWindow.destroy).pack()
+    #newWindow.mainloop()
+    window.wait_window(newWindow)
+    global ans
+    answer = choices[ans]
+    print(answer)
     return answer
 
 # function for asking user to upload resume/file
@@ -132,5 +141,9 @@ resumeButton.pack()
 # button to start back end code
 startButton = tk.Button(text="Start", command=onclick)
 startButton.pack()
+
+# this may help
+def InitInputToString(tkinter_entry):
+    return tkinter_entry.get()
 
 tk.mainloop()
