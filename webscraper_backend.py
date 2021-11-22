@@ -8,15 +8,9 @@ import auto_jober_gui
 
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task
-<<<<<<< HEAD
 username = "sam008@ucsd.edu"        # user's username/email to login into website
-password = "Stovecraft123@"         # user's password to login into website 
-=======
+password = "Stovecraft123@"         # user's password to login into website
 
-username = ""        # user's username/email to login into website
-password = ""         # user's password to login into website
-
->>>>>>> a97405e69f3ba7898d11cd9dd48a6749b58c6ba4
 jobKeyword = "Software Engineer"    # keyword for related jobs
 
 # Driver -- Global Variable -- NOT TO BE REASSIGNED
@@ -222,9 +216,9 @@ def UpdateInput(item):
         val = Select(temp).first_selected_option.get_attribute('value')
         choices = Select(temp).options
         choices.pop(0)
-        #if val == "Select an option":
-        answer = DropdownGetAnswer(GetQuestion(item), choices)#get answer from user, then select answer
-        DropdownSetAnswer(answer, temp)
+        if val == "Select an option":
+            answer = DropdownGetAnswer(GetQuestion(item), choices)#get answer from user, then select answer
+            DropdownSetAnswer(answer, temp)
         return
     except NoSuchElementException:
         pass
@@ -279,16 +273,6 @@ def ApplyToJobs():
         if len(driver.find_elements_by_class_name("jobs-apply-button")) == 0:
             continue
         driver.find_element_by_class_name("jobs-apply-button").click()
-
-        form_items = GetFormItems()
-        #questions = GetAllQuestions(form_items)
-        #answers = GetAllAnswers(form_items)
-
-        # checks if answers are empty for any question and then fills in the answer from either database/dictionary
-        # or asks user for an answer and will remember it. 
-        for item in form_items:
-            UpdateInput(item)
-                
         
         #time.sleep(1000)#remove this if nessesary, should be removed once everything works
         

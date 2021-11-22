@@ -47,13 +47,7 @@ def onclick():
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
-<<<<<<< HEAD
-    #answer = simpledialog.askstring("Input", question)
-    answer = "Placeholder Answer"
-=======
-
     answer = simpledialog.askstring("Input", question, parent=window)
->>>>>>> a97405e69f3ba7898d11cd9dd48a6749b58c6ba4
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
@@ -72,15 +66,15 @@ def GetUserInput(question):
 #
 #        once you've tested and confirmed it works, let me know which route you've taken
 def GetUserChoice(question, choices):
-    #if question:
-    #    tk.Label(window, text=question).pack()
-    #v = IntVar()
-    #for i, choice in enumerate(choices):
-    #    tk.Radiobutton(window, text=choice, variable=v, value=i).pack(anchor="w")
-    #tk.Button(text="Sumbit", command=window.destroy).pack()
-    #window.mainloop()
-    #if v.get() == 0: return None
-    #answer = choices[i]
+    if question:
+        tk.Label(window, text=question).pack()
+    v = IntVar()
+    for i, choice in enumerate(choices):
+        tk.Radiobutton(window, text=choice, variable=v, value=i).pack(anchor="w")
+    tk.Button(text="Sumbit", command=window.destroy).pack()
+    window.mainloop()
+    if v.get() == 0: return None
+    answer = choices[i]
     print("Question: ", question)#for debugging, can be deleted
     print("##Start of Choices##")#for debugging, can be deleted
     for choice in choices:#for debugging, can be deleted
