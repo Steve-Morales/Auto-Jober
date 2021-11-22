@@ -45,7 +45,7 @@ def onclick():
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
-    answer = "Place Holder Answer"
+    answer = "" #"Place Holder Answer"
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 

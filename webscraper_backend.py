@@ -8,8 +8,8 @@ import auto_jober_gui
 
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task
-username = ""        # user's username/email to login into website
-password = ""         # user's password to login into website 
+username = "yul008@ucsd.edu"        # user's username/email to login into website
+password = "Yl010627"         # user's password to login into website
 jobKeyword = "Software Engineer"    # keyword for related jobs
 
 # Driver -- Global Variable -- NOT TO BE REASSIGNED
@@ -23,12 +23,24 @@ driver = webdriver.Firefox()
 def hasNext():
     return len(driver.find_elements_by_xpath('//button[normalize-space()="Next"]')) == 1
 
+def hasReview():
+    return len(driver.find_elements_by_xpath('//button[normalize-space()="Review"]')) == 1
+
+def hasSubmit():
+    return len(driver.find_elements_by_xpath('//button[normalize-space()="Submit application"]')) == 1
+
 ########################## TODO ####################################
 # Make sure this works
 #
 # Clicks on a 'Next' button if one exists
 def clickNext():
     driver.find_element_by_xpath('//button[normalize-space()="Next"]').click()
+
+def clickReview():
+    driver.find_element_by_xpath('//button[normalize-space()="Review"]').click()
+
+def clickSubmit():
+    driver.find_element_by_xpath('//button[normalize-space()="Submit application"]').click()
 
 #                           TODO                         #
 # Since we just need something to show at the demo, this
@@ -244,6 +256,9 @@ def ApplyToJobs():
     for job in jobList:
         print(i)
         job.click()
+
+        if len(driver.find_elements_by_class_name("jobs-apply-button")) == 0:
+            continue
         driver.find_element_by_class_name("jobs-apply-button").click()
         
         form_items = GetFormItems()
@@ -256,10 +271,26 @@ def ApplyToJobs():
             UpdateInput(item)
                 
         
-        time.sleep(1000)#remove this if nessesary, should be removed once everything works
+        #time.sleep(1000)#remove this if nessesary, should be removed once everything works
         
         while (hasNext()):
+            form_items = GetFormItems()
+            # questions = GetAllQuestions(form_items)
+            # answers = GetAllAnswers(form_items)
+
+            # checks if answers are empty for any question and then fills in the answer from either database/dictionary
+            # or asks user for an answer and will remember it.
+            for item in form_items:
+                UpdateInput(item)
             clickNext()
+
+        if (hasReview()):
+            clickReview()
+        if (hasSubmit()):
+            clickSubmit()
+        if len(driver.find_elements_by_class_name("artdeco-modal__dismiss")) == 1:
+            driver.find_element_by_class_name("artdeco-modal__dismiss").click()
+
         time.sleep(waitTime)
         #driver.find_element_by_xpath("//div[@class='jobs-apply-button--top-card']/button[@class='jobs-apply-button artdeco-button']").click()
         print(job.text + "\n")
