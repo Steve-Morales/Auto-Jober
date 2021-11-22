@@ -1,7 +1,9 @@
 import tkinter as tk
 from tkinter import filedialog
+from tkinter import simpledialog
+from tkinter import IntVar
 
-import webscraper_backend
+# import webscraper_backend
 
 # window dimensions and title
 window = tk.Tk()
@@ -14,7 +16,8 @@ def onclick():
     # available variables: firstName, lastName, email, phoneNum, jobTitle, resume
     #
     #print("Loging In") #placeholder
-    webscraper_backend.ApplyToJobs()
+    # webscraper_backend.ApplyToJobs()
+    pass
 
 ########################## README ####################################
 # Now that GUI is linked with the backend, and due to the circular
@@ -45,7 +48,8 @@ def onclick():
 # lastly, the output of this function should be the text the user typed
 def GetUserInput(question):
     print("Question: ", question)#for debugging, can be deleted
-    answer = "" #"Place Holder Answer"
+
+    answer = simpledialog.askstring("Input", question, parent=window)
     print("Answer: ", answer)#for debugging, can be deleted
     return answer
 
@@ -64,6 +68,15 @@ def GetUserInput(question):
 #
 #        once you've tested and confirmed it works, let me know which route you've taken
 def GetUserChoice(question, choices):
+    if question:
+        tk.Label(window, text=question).pack()
+    v = IntVar()
+    for i, choice in enumerate(choices):
+        tk.Radiobutton(window, text=choice, variable=v, value=i).pack(anchor="w")
+    tk.Button(text="Sumbit", command=window.destroy).pack()
+    window.mainloop()
+    if v.get() == 0: return None
+    answer = choices[i]
     print("Question: ", question)#for debugging, can be deleted
     print("##Start of Choices##")#for debugging, can be deleted
     for choice in choices:#for debugging, can be deleted
@@ -104,6 +117,15 @@ jobTitle = tk.Entry(window, width=30)
 jobTitle.pack()
 jobTitle.insert(0, "Desired Job Title")
 
+# ask for username and password
+userName = tk.Entry(window, width=30)
+userName.pack()
+userName.insert(0, "Linkedin Username")
+
+passWord = tk.Entry(window, width=30)
+passWord.pack()
+passWord.insert(0, "Linkedin Password")
+
 # create resume variable to allow for access outside of uploadResume function
 resume = 0
 resumeButton = tk.Button(text="Upload Resume", command=uploadResume)
@@ -112,11 +134,5 @@ resumeButton.pack()
 # button to start back end code
 startButton = tk.Button(text="Start", command=onclick)
 startButton.pack()
-
-# This is where you will test your functions
-# Delete this once everything works
-#~~~~~~~~~~~~~~~~~~~~ Testing ~~~~~~~~~~~~~~~~~~~~#
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 tk.mainloop()
