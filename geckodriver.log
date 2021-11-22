@@ -4040,3 +4040,4 @@ emit@resource://devtools/shared/event-emitter.js:190:18
 emit@resource://devtools/shared/event-emitter.js:342:18
 getMutations@resource://devtools/client/fronts/walker.js:311:10
 
+1637539536957	geckodriver	INFO	Listening on 127.0.0.1:55076

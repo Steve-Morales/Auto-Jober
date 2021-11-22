@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import simpledialog
 from tkinter import IntVar
+import webscraper_backend
 
 # import webscraper_backend
 
@@ -16,8 +17,8 @@ def onclick():
     # available variables: firstName, lastName, email, phoneNum, jobTitle, resume
     #
     #print("Loging In") #placeholder
-    # webscraper_backend.ApplyToJobs()
-    pass
+    webscraper_backend.ApplyToJobs()
+    #pass
 
 ########################## README ####################################
 # Now that GUI is linked with the backend, and due to the circular
