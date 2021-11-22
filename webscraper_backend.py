@@ -9,8 +9,8 @@ import auto_jober_gui
 # Webscraping Global Variables 
 waitTime = 2                        # wait time to perform next task
 
-username = "yul008@ucsd.edu"        # user's username/email to login into website
-password = "Yl010627"         # user's password to login into website
+username = ""        # user's username/email to login into website
+password = ""         # user's password to login into website
 
 jobKeyword = "Software Engineer"    # keyword for related jobs
 
@@ -23,7 +23,6 @@ driver = webdriver.Firefox()
 def hasNext():
     return len(driver.find_elements_by_xpath('//button[normalize-space()="Next"]')) == 1
 
-<<<<<<< HEAD
 def hasReview():
     return len(driver.find_elements_by_xpath('//button[normalize-space()="Review"]')) == 1
 
@@ -33,8 +32,6 @@ def hasSubmit():
 ########################## TODO ####################################
 # Make sure this works
 #
-=======
->>>>>>> 9a12d88611ea00ee5adf33bb7d876be91f895e09
 # Clicks on a 'Next' button if one exists
 def clickNext():
     driver.find_element_by_xpath('//button[normalize-space()="Next"]').click()

@@ -4282,4 +4282,30 @@ emit@resource://devtools/shared/event-emitter.js:190:18
 emit@resource://devtools/shared/event-emitter.js:342:18
 getMutations@resource://devtools/client/fronts/walker.js:311:10
 
+<<<<<<< HEAD
 >>>>>>> 9a12d88611ea00ee5adf33bb7d876be91f895e09
+=======
+1637539536957	geckodriver	INFO	Listening on 127.0.0.1:55076
+>>>>>>> 7c8d95d81bdda5493cef164498b60afededd1bb7
+1637539916046	geckodriver	INFO	Listening on 127.0.0.1:5453
+1637539919148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SUPERI~1\\AppData\\Local\\Temp\\rust_mozprofilepgFcaE"
+1637539919633	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\super ivan\\AppData\\Local\\Temp\\rust_mozprofilepgFcaE\\search.json.mozlz4", (void 0)))
+1637539921977	Marionette	INFO	Listening on port 5462
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1637539922368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+1637539939029	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
